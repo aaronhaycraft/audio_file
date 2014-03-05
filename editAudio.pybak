@@ -52,19 +52,25 @@ def deleteDir():
   
 def useAudio2():
   total=0
+  x=0
+  y=0
   data = requestInteger("Please enter a picture size: ")
   picture=makeEmptyPicture(data,data)
   #setcolor(getpixel, getcolor)
   file=pickAFile()
   sound=makeSound(file)
-  overall=(getNumSamples(sound))/data
+  overall=(getNumSamples(sound))/(data*data)
   int(overall)
-  printNow (overall)
-  printNow (data)
-  printNow (getNumSamples(sound))
-  for i in range (0, overall):
+  #printNow (overall)
+  #printNow (data)
+  #printNow (getNumSamples(sound))
+  
+  for i in range (0, (data*data)):
     avg=0
-    for x in range (0, data):
-      avg+=getSampleValueAt(sound, (i*data)+x)
+    for j in range (0, overall):
+      avg+=getSampleValueAt(sound, (i*overall)+j)
     total=avg/data
-    printNow(total)
+    pixel=getPixel(picture, x, (i*data)+x)
+    setColor(pixel, red)
+    #printNow(total)
+  show(picture)

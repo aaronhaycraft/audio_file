@@ -70,7 +70,11 @@ def useAudio2():
     for j in range (0, overall):
       total+=getSampleValueAt(sound, (i*overall)+j)
     avg=total/overall
-    if (avg<20):
-      pixelArray[pixelIndex].setColor(orange)
+    if (avg<-50):
+      pixelArray[pixelIndex].setColor(red)
+    elif(avg>20):
+      pixelArray[pixelIndex].setColor(blue)
+    elif(avg>-50):
+      pixelArray[pixelIndex].setColor(yellow)
     pixelIndex+=1
   show(picture)

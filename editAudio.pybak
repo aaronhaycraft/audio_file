@@ -51,7 +51,6 @@ def deleteDir():
   shutil.rmtree('C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\')
   
 def useAudio2():
-  total=0
   x=0
   y=0
   data = requestInteger("Please enter a picture size: ")
@@ -64,13 +63,14 @@ def useAudio2():
   #printNow (overall)
   #printNow (data)
   #printNow (getNumSamples(sound))
-  
+  pixelArray=getPixels(picture)
+  pixelIndex=0
   for i in range (0, (data*data)):
-    avg=0
+    total=0
     for j in range (0, overall):
-      avg+=getSampleValueAt(sound, (i*overall)+j)
-    total=avg/data
-    pixel=getPixel(picture, x, (i*data)+x)
-    setColor(pixel, red)
-    #printNow(total)
+      total+=getSampleValueAt(sound, (i*overall)+j)
+    avg=total/overall
+    if (avg<20):
+      pixelArray[pixelIndex].setColor(orange)
+    pixelIndex+=1
   show(picture)

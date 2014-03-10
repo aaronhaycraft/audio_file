@@ -278,4 +278,31 @@
 <command_run time="Sun Mar 09 22:50:37 PDT 2014">useAudio2()></command_run>
 <menu_button time="Sun Mar 09 22:51:53 PDT 2014">Save Program</menu_button>
 <file_saved time="Sun Mar 09 22:51:53 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+<file_opened time="Mon Mar 10 14:08:10 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_opened>
+<menu_button time="Mon Mar 10 14:08:35 PDT 2014">Load Program</menu_button>
+<file_saved time="Mon Mar 10 14:08:35 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>
+<command_run time="Mon Mar 10 14:08:39 PDT 2014">deleteDir()></command_run>
+<command_run time="Mon Mar 10 14:08:46 PDT 2014">useAudio2()></command_run>
+<menu_button time="Mon Mar 10 14:16:40 PDT 2014">Undo</menu_button>
+<menu_button time="Mon Mar 10 14:16:45 PDT 2014">Redo</menu_button>
+<menu_button time="Mon Mar 10 14:16:55 PDT 2014">Undo</menu_button>
+<menu_button time="Mon Mar 10 14:17:46 PDT 2014">Save Program</menu_button>
+<file_saved time="Mon Mar 10 14:17:46 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>
+<menu_button time="Mon Mar 10 14:17:47 PDT 2014">Load Program</menu_button>
+<command_run time="Mon Mar 10 14:17:48 PDT 2014">deleteDir()></command_run>
+<command_run time="Mon Mar 10 14:17:52 PDT 2014">useAudio2()></command_run>
+<menu_button time="Mon Mar 10 14:19:21 PDT 2014">Load Program</menu_button>
+<command_run time="Mon Mar 10 14:19:23 PDT 2014">deleteDir()></command_run>
+<command_run time="Mon Mar 10 14:19:24 PDT 2014">useAudio2()></command_run>
+<command_run time="Mon Mar 10 14:19:28 PDT 2014">useAudio2()></command_run>
+<menu_button time="Mon Mar 10 14:21:42 PDT 2014">Save Program</menu_button>
+<file_saved time="Mon Mar 10 14:21:42 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>
+<menu_button time="Mon Mar 10 14:21:43 PDT 2014">Load Program</menu_button>
+<command_run time="Mon Mar 10 14:21:45 PDT 2014">deleteDir()></command_run>
+<command_run time="Mon Mar 10 14:21:46 PDT 2014">useAudio2()></command_run>
+<menu_button time="Mon Mar 10 14:22:57 PDT 2014">Save Program</menu_button>
+<file_saved time="Mon Mar 10 14:22:57 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
 </file_created>

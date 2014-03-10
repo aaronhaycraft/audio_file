@@ -58,45 +58,28 @@ def useAudio2():
   #printNow (getNumSamples(sound))
   pixelArray=getPixels(picture)
   pixelIndex=0
-  for i in range (0, (data*data)):
-    total=0
-    for j in range (0, overall):
-      total+=getSampleValueAt(sound, (i*overall)+j)
-    avg=total/overall
-    if (avg<-50):
-      pixelArray[pixelIndex].setColor(red)
-      value=value+1
-      if(value<10):
-        writePictureTo(picture, dir+'photo000'+str(value)+'.jpg')
-      elif(value<100):
-        writePictureTo(picture, dir+'photo00'+str(value)+'.jpg')
-      elif(value<1000):
-        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
-      else:
-        writePictureTo(picture, dir+'photo'+str(value)+'.jpg')
-    elif(avg>20):
-      pixelArray[pixelIndex].setColor(blue)
-      value=value+1
-      if(value<10):
-        writePictureTo(picture, dir+'photo000'+str(value)+'.jpg')
-      elif(value<100):
-        writePictureTo(picture, dir+'photo00'+str(value)+'.jpg')
-      elif(value<1000):
-        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
-      else:
-        writePictureTo(picture, dir+'photo'+str(value)+'.jpg')
-    elif(avg>-50):
-      pixelArray[pixelIndex].setColor(yellow)
-      value=value+1
-      if(value<10):
-        writePictureTo(picture, dir+'photo000'+str(value)+'.jpg')
-      elif(value<100):
-        writePictureTo(picture, dir+'photo00'+str(value)+'.jpg')
-      elif(value<1000):
-        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
-      else:
-        writePictureTo(picture, dir+'photo'+str(value)+'.jpg')
-    pixelIndex+=1
+  for k in range (0, data):
+    for i in range (0, data):
+      total=0
+      for j in range (0, overall):
+        total+=getSampleValueAt(sound, (k*data)+(i*overall)+j)
+      avg=total/overall
+      if (avg<-50):
+        pixelArray[pixelIndex].setColor(red)
+      elif(avg>20):
+        pixelArray[pixelIndex].setColor(blue)
+      elif(avg>-50):
+        pixelArray[pixelIndex].setColor(yellow)
+      pixelIndex+=1
+    value=value+1
+    if(value<10):
+      writePictureTo(picture, dir+'photo000'+str(value)+'.jpg')
+    elif(value<100):
+      writePictureTo(picture, dir+'photo00'+str(value)+'.jpg')
+    elif(value<1000):
+      writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
+    else:
+      writePictureTo(picture, dir+'photo'+str(value)+'.jpg')
   show(picture)
   mov = makeMovieFromInitialFile(pickAFile())
   writeAVI(mov, dir+'newMovie.avi', 20)

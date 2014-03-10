@@ -233,3 +233,22 @@
 <menu_button time="Sun Mar 09 21:59:20 PDT 2014">Load Program</menu_button>
 <file_saved time="Sun Mar 09 21:59:21 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
 </file_created>
+<command_run time="Sun Mar 09 21:59:25 PDT 2014">deleteDir()></command_run>
+<command_run time="Sun Mar 09 21:59:29 PDT 2014">useAudio2()></command_run>
+<menu_button time="Sun Mar 09 21:59:52 PDT 2014">Load Program</menu_button>
+<command_run time="Sun Mar 09 21:59:54 PDT 2014">useAudio2()></command_run>
+<command_run time="Sun Mar 09 22:02:31 PDT 2014">useAudio2()></command_run>
+<menu_button time="Sun Mar 09 22:09:31 PDT 2014">Save Program</menu_button>
+<file_saved time="Sun Mar 09 22:09:31 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 09 22:09:32 PDT 2014">Load Program</menu_button>
+<menu_button time="Sun Mar 09 22:09:40 PDT 2014">Load Program</menu_button>
+<file_saved time="Sun Mar 09 22:09:40 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 09 22:09:41 PDT 2014">useAudio2()></command_run>
+<menu_button time="Sun Mar 09 22:10:51 PDT 2014">Stop</menu_button>
+<menu_button time="Sun Mar 09 22:15:20 PDT 2014">Undo</menu_button>
+<menu_button time="Sun Mar 09 22:15:21 PDT 2014">Undo</menu_button>
+<menu_button time="Sun Mar 09 22:15:37 PDT 2014">Save Program</menu_button>
+<file_saved time="Sun Mar 09 22:15:37 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>

@@ -27,17 +27,6 @@ def useAudio():
   show(picture)
   mov = makeMovieFromInitialFile(pickAFile())
   writeAVI(mov, dir+'newMovie.avi', 20)
-  #setcolor(getpixel, getcolor)
-  avg=0
-  file=pickAFile()
-  sound=makeSound(file)
-  overall=(getNumSamples(sound))/data
-  int(overall)
-  for i in range (0, overall):
-    for x in range (0, data):
-      avg+=(i*overall)+x
-      print avg
-      #setcolor(getPixel, getcolor)
 
 def getAudio():
   file=pickAFile()
@@ -56,6 +45,7 @@ def useAudio2():
     os.makedirs(dir)
   x=0
   y=0
+  value=0
   data = requestInteger("Please enter a picture size: ")
   picture=makeEmptyPicture(data,data)
   #setcolor(getpixel, getcolor)
@@ -75,9 +65,36 @@ def useAudio2():
     avg=total/overall
     if (avg<-50):
       pixelArray[pixelIndex].setColor(red)
+      value=value+1
+      if(total<10):
+        writePictureTo(picture, dir+'photo000'+str(value)+'.jpg')
+      elif(total<100):
+        writePictureTo(picture, dir+'photo00'+str(value)+'.jpg')
+      elif(total<1000):
+        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
+      else:
+        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
     elif(avg>20):
       pixelArray[pixelIndex].setColor(blue)
+      value=value+1
+      if(total<10):
+        writePictureTo(picture, dir+'photo000'+str(value)+'.jpg')
+      elif(total<100):
+        writePictureTo(picture, dir+'photo00'+str(value)+'.jpg')
+      elif(total<1000):
+        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
+      else:
+        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
     elif(avg>-50):
       pixelArray[pixelIndex].setColor(yellow)
+      value=value+1
+      if(total<10):
+        writePictureTo(picture, dir+'photo000'+str(value)+'.jpg')
+      elif(total<100):
+        writePictureTo(picture, dir+'photo00'+str(value)+'.jpg')
+      elif(total<1000):
+        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
+      else:
+        writePictureTo(picture, dir+'photo0'+str(value)+'.jpg')
     pixelIndex+=1
   show(picture)

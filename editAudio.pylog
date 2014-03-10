@@ -252,3 +252,30 @@
 <menu_button time="Sun Mar 09 22:15:37 PDT 2014">Save Program</menu_button>
 <file_saved time="Sun Mar 09 22:15:37 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
 </file_created>
+<menu_button time="Sun Mar 09 22:16:23 PDT 2014">Load Program</menu_button>
+<command_run time="Sun Mar 09 22:16:25 PDT 2014">useAudio2()></command_run>
+<menu_button time="Sun Mar 09 22:17:04 PDT 2014">Stop</menu_button>
+<command_run time="Sun Mar 09 22:17:10 PDT 2014">deleteDir()></command_run>
+<menu_button time="Sun Mar 09 22:17:59 PDT 2014">Save Program</menu_button>
+<file_saved time="Sun Mar 09 22:17:59 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 09 22:18:00 PDT 2014">Load Program</menu_button>
+<command_run time="Sun Mar 09 22:18:02 PDT 2014">useAudio2()></command_run>
+<menu_button time="Sun Mar 09 22:20:03 PDT 2014">Stop</menu_button>
+<menu_button time="Sun Mar 09 22:20:14 PDT 2014">Save Program</menu_button>
+<file_saved time="Sun Mar 09 22:20:14 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>
+<menu_button time="Sun Mar 09 22:20:17 PDT 2014">Load Program</menu_button>
+<command_run time="Sun Mar 09 22:20:19 PDT 2014">deleteDir()></command_run>
+<menu_button time="Sun Mar 09 22:48:41 PDT 2014">Load Program</menu_button>
+<command_run time="Sun Mar 09 22:48:43 PDT 2014">useAudio2()></command_run>
+<menu_button time="Sun Mar 09 22:49:24 PDT 2014">Stop</menu_button>
+<command_run time="Sun Mar 09 22:49:43 PDT 2014">useAudio2()></command_run>
+<menu_button time="Sun Mar 09 22:50:28 PDT 2014">Load Program</menu_button>
+<file_saved time="Sun Mar 09 22:50:29 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>
+<command_run time="Sun Mar 09 22:50:32 PDT 2014">deleteDir()></command_run>
+<command_run time="Sun Mar 09 22:50:37 PDT 2014">useAudio2()></command_run>
+<menu_button time="Sun Mar 09 22:51:53 PDT 2014">Save Program</menu_button>
+<file_saved time="Sun Mar 09 22:51:53 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\editAudio.py</file_saved>
+</file_created>

@@ -51,6 +51,9 @@ def deleteDir():
   shutil.rmtree('C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\')
   
 def useAudio2():
+  dir='C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\'
+  if not os.path.exists(dir):
+    os.makedirs(dir)
   x=0
   y=0
   data = requestInteger("Please enter a picture size: ")

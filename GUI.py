@@ -1,4 +1,5 @@
 import javax.swing as swing
+import os
 import java
 
 def GUI_start():
@@ -40,4 +41,28 @@ class VideoMaker(swing.JFrame):
     
     def setFolder(self,event):
       setMediaPath()
-  
+
+class FileContentsViewer(swing.JFrame):
+  def __init__(self,directory):
+    swing.JFrame.__init__(self, title="File Contents Viewer", size=(210,250))
+    self.contentPane.layout = java.awt.BorderLayout()
+    self.currentDirectory = directory
+    self.files=swing.JList(os.listdir(self.currentDirectory))
+    pane = swing.JScrollPane(self.files)
+    self.contentPane.add(pane,java.awt.BorderLayout.CENTER)
+    fileView = swing.JButton("View Contents", size=(65,30),
+    actionPerformed=self.fileView)
+    self.contentPane.add(fileView, java.awt.BorderLayout.SOUTH)
+    self.pack()
+    self.visible = 1
+    
+  def fileView(self,event):
+    selected=self.files.getSelectedIndices()
+    selectedFile = self.files.getModel( ).getElementAt( selected[0])
+    selectedFile = self.currentDirectory+ "//"+ selectedFile
+    if selectedFile.endswith(".jpg"):
+      pic = makePicture(selectedFile)
+      show(pic)
+    if selectedFile.endswith(".wav"):
+      snd = makeSound(selectedFile)
+      play(snd)

@@ -68,3 +68,11 @@
 <menu_button time="Wed Mar 12 14:51:18 PDT 2014">Save Program</menu_button>
 <file_saved time="Wed Mar 12 14:51:18 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\GUI.py</file_saved>
 </file_created>
+<menu_button time="Wed Mar 12 14:51:18 PDT 2014">Load Program</menu_button>
+<command_run time="Wed Mar 12 14:51:20 PDT 2014">fcv = VideoMaker()></command_run>
+<command_run time="Wed Mar 12 14:53:11 PDT 2014">fcv></command_run>
+<command_run time="Wed Mar 12 14:53:14 PDT 2014">fcv></command_run>
+<command_run time="Wed Mar 12 14:53:16 PDT 2014">fcv = VideoMaker()></command_run>
+<menu_button time="Wed Mar 12 15:18:47 PDT 2014">Load Program</menu_button>
+<file_saved time="Wed Mar 12 15:18:49 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\GUI.py</file_saved>
+</file_created>

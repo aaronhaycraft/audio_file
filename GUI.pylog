@@ -43,3 +43,28 @@
 <menu_button time="Wed Mar 12 14:26:13 PDT 2014">Save Program</menu_button>
 <file_saved time="Wed Mar 12 14:26:13 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\GUI.py</file_saved>
 </file_created>
+<menu_button time="Wed Mar 12 14:46:58 PDT 2014">Save Program</menu_button>
+<file_saved time="Wed Mar 12 14:46:58 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\GUI.py</file_saved>
+</file_created>
+<menu_button time="Wed Mar 12 14:46:58 PDT 2014">Load Program</menu_button>
+<command_run time="Wed Mar 12 14:47:11 PDT 2014">fcv = FileContentsViewer()></command_run>
+<command_run time="Wed Mar 12 14:47:21 PDT 2014">__init__></command_run>
+<command_run time="Wed Mar 12 14:47:31 PDT 2014">GUI_advanced()></command_run>
+<command_run time="Wed Mar 12 14:47:36 PDT 2014">fcv = FileContentsViewer()></command_run>
+<command_run time="Wed Mar 12 14:47:45 PDT 2014">fcv = VideoMaker()></command_run>
+<command_run time="Wed Mar 12 14:48:01 PDT 2014">__init__></command_run>
+<menu_button time="Wed Mar 12 14:50:06 PDT 2014">Load Program</menu_button>
+<file_saved time="Wed Mar 12 14:50:06 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\GUI.py</file_saved>
+</file_created>
+<command_run time="Wed Mar 12 14:50:09 PDT 2014">fcv = VideoMaker()></command_run>
+<menu_button time="Wed Mar 12 14:50:19 PDT 2014">Load Program</menu_button>
+<file_saved time="Wed Mar 12 14:50:20 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\GUI.py</file_saved>
+</file_created>
+<command_run time="Wed Mar 12 14:50:20 PDT 2014">fcv = VideoMaker()></command_run>
+<command_run time="Wed Mar 12 14:50:39 PDT 2014">__init__></command_run>
+<menu_button time="Wed Mar 12 14:51:10 PDT 2014">Save Program</menu_button>
+<file_saved time="Wed Mar 12 14:51:10 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\GUI.py</file_saved>
+</file_created>
+<menu_button time="Wed Mar 12 14:51:18 PDT 2014">Save Program</menu_button>
+<file_saved time="Wed Mar 12 14:51:18 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\GUI.py</file_saved>
+</file_created>

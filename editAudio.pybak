@@ -139,10 +139,16 @@ def useAudio3(t):
       avg=total/overall
       if (avg<-50):
         pixelArray[pixelIndex].setColor(red)
-      elif(avg>20):
+      elif(avg<-25 and avg>=-50):
+        pixelArray[pixelIndex].setColor(green)
+      elif(avg<0 and avg>=-25):
         pixelArray[pixelIndex].setColor(blue)
-      elif(avg>-50):
+      elif(avg<25 and avg>=0):
         pixelArray[pixelIndex].setColor(yellow)
+      elif(avg<50 and avg>=25):
+        pixelArray[pixelIndex].setColor(magenta)
+      elif(avg>=50):
+        pixelArray[pixelIndex].setColor(orange)
       pixelIndex+=1
     value=value+1
     if(value<10):

@@ -1,3 +1,7 @@
+import javax.swing as swing
+import os
+import java
+
 def useAudio():
   dir='C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\'
   if not os.path.exists(dir):
@@ -86,11 +90,13 @@ def useAudio2():
   
 class VideoMaker(swing.JFrame):
     def __init__(self):
+      #self.value=200
       swing.JFrame.__init__(self, title="Video Maker", size=(200,200))
+      
       self.contentPane.layout=java.awt.FlowLayout()
       
       self.field=swing.JTextField(size=(200,60))
-      self.field.text="sample.jpg"
+      self.field.text="200"
       self.contentPane.add(self.field)
       
       setSize = swing.JButton("Create Size", size=(65,30), actionPerformed=self.checkContents)
@@ -99,22 +105,21 @@ class VideoMaker(swing.JFrame):
       self.visible=1
       
     def checkContents(self,event):
-      if self.field.text="200":
+      if self.field.text=="200":
         self.value=200
-      elif self.field.text="300":
-        self.value=200
-      if self.field.text="400":
-        self.value=200
+      elif self.field.text=="300":
+        self.value=300
+      elif self.field.text=="400":
+        self.value=400
 
-def useAudio3():
+def useAudio3(t):
   dir='C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\'
   if not os.path.exists(dir):
     os.makedirs(dir)
   x=0
   y=0
   value=0
-  temporary=VideoMaker()
-  data = temporary.value
+  data = t.value
   picture=makeEmptyPicture(data,data)
   #setcolor(getpixel, getcolor)
   file=pickAFile()

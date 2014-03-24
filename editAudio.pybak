@@ -83,6 +83,28 @@ def useAudio2():
   show(picture)
   mov = makeMovieFromInitialFile(pickAFile())
   writeAVI(mov, dir+'newMovie.avi', 20)
+  
+class VideoMaker(swing.JFrame):
+    def __init__(self):
+      swing.JFrame.__init__(self, title="Video Maker", size=(200,200))
+      self.contentPane.layout=java.awt.FlowLayout()
+      
+      self.field=swing.JTextField(size=(200,60))
+      self.field.text="sample.jpg"
+      self.contentPane.add(self.field)
+      
+      setSize = swing.JButton("Create Size", size=(65,30), actionPerformed=self.checkContents)
+      self.contentPane.add(setSize)
+      
+      self.visible=1
+      
+    def checkContents(self,event):
+      if self.field.text="200":
+        self.value=200
+      elif self.field.text="300":
+        self.value=200
+      if self.field.text="400":
+        self.value=200
 
 def useAudio3():
   dir='C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\'
@@ -91,7 +113,8 @@ def useAudio3():
   x=0
   y=0
   value=0
-  data = requestInteger("Please enter a picture size: ")
+  temporary=VideoMaker()
+  data = temporary.value
   picture=makeEmptyPicture(data,data)
   #setcolor(getpixel, getcolor)
   file=pickAFile()

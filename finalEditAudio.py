@@ -34,8 +34,10 @@ class GUI(swing.JFrame):
       setSize = swing.JButton("Create Size", size=(65,30), actionPerformed=self.checkContents)
       self.contentPane.add(setSize)
       
+      # Makes the GUI visible
       self.visible=1
-      
+    
+    # This function will set the value that will be passed into the function below    
     def checkContents(self,event):
       if self.field.text=="200":
         self.value=200
@@ -44,6 +46,12 @@ class GUI(swing.JFrame):
       elif self.field.text=="400":
         self.value=400
 
+# This function will set a directory, and will start by accepting the value that is created back in the class.
+# After the size of the picture is passed in, the user will be prompted to choose a .wav file. After the .wav
+# is chosen, the program will then set pixels in a picture to a specific color, depending on what the average
+# sample value is. After a row is formed, the picture will then be output to files, preparing for the creation
+# of a movie. Once all the pictures are created, there will be a prompt to select the first photo of the file
+# to use for the movie. A movie will then be created of the pictures and how they were created piece by piece.
 def useAudio(t):
   dir='C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\'
   if not os.path.exists(dir):

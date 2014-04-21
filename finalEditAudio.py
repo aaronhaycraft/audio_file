@@ -10,9 +10,8 @@ import java
 
 # deleteDir() function is necessary to delete the directory if it exists.
 def deleteDir():
-  if os.path.exists(dir):
-    import shutil
-    shutil.rmtree('C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\')
+  import shutil
+  shutil.rmtree('C:\\Users\\Pilot\\My Documents\\CST 205\\pictures\\')
   
 # The class GUI is where the Graphical User Interface (GUI) is stored. By using this class
 # and creating an object for it, you will be able to use the value that is entered and pass
@@ -61,14 +60,10 @@ def useAudio(t):
   value=0
   data = t.value
   picture=makeEmptyPicture(data,data)
-  #setcolor(getpixel, getcolor)
   file=pickAFile()
   sound=makeSound(file)
   overall=(getNumSamples(sound))/(data*data)
   int(overall)
-  #printNow (overall)
-  #printNow (data)
-  #printNow (getNumSamples(sound))
   pixelArray=getPixels(picture)
   pixelIndex=0
   for k in range (0, data):

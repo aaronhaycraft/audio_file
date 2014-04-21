@@ -645,4 +645,27 @@
 <file_opened time="Tue Mar 25 15:06:33 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\finalEditAudio.py</file_opened>
 <menu_button time="Tue Mar 25 15:12:26 PDT 2014">Save Program</menu_button>
 <file_saved time="Tue Mar 25 15:12:26 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\finalEditAudio.py</file_saved>
+<file_opened time="Wed Mar 26 14:07:42 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\finalEditAudio.py</file_opened>
+<menu_button time="Wed Mar 26 14:20:21 PDT 2014">Load Program</menu_button>
+<command_run time="Wed Mar 26 14:20:24 PDT 2014">deleteDir()></command_run>
+<menu_button time="Wed Mar 26 14:20:34 PDT 2014">Save Program</menu_button>
+<file_saved time="Wed Mar 26 14:20:34 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\finalEditAudio.py</file_saved>
+<file_opened time="Wed Mar 26 14:21:15 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\finalEditAudio.py</file_opened>
+<menu_button time="Wed Mar 26 14:21:47 PDT 2014">Save Program</menu_button>
+<file_saved time="Wed Mar 26 14:21:47 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\finalEditAudio.py</file_saved>
+</file_created>
+<menu_button time="Wed Mar 26 14:21:48 PDT 2014">Load Program</menu_button>
+<command_run time="Wed Mar 26 14:21:51 PDT 2014">deleteDir()></command_run>
+<command_run time="Wed Mar 26 14:22:08 PDT 2014">t=GUI()></command_run>
+<command_run time="Wed Mar 26 14:22:59 PDT 2014">useAudio(t)></command_run>
+<command_run time="Wed Mar 26 15:12:34 PDT 2014">deleteDir()></command_run>
+<command_run time="Wed Mar 26 15:12:38 PDT 2014">t=GUI()></command_run>
+<command_run time="Wed Mar 26 15:12:48 PDT 2014">useAudio(t)></command_run>
+<command_run time="Wed Mar 26 15:22:13 PDT 2014">deleteDir()></command_run>
+<command_run time="Wed Mar 26 15:22:14 PDT 2014">t=GUI()></command_run>
+<command_run time="Wed Mar 26 15:22:20 PDT 2014">useAudio(t)></command_run>
+<command_run time="Wed Mar 26 15:25:03 PDT 2014">deleteDir()></command_run>
+<command_run time="Wed Mar 26 15:25:05 PDT 2014">t=GUI()></command_run>
+<command_run time="Wed Mar 26 15:25:15 PDT 2014">useAudio(t)></command_run>
+<file_saved time="Wed Mar 26 15:34:25 PDT 2014">C:\Users\Pilot\Documents\GitHub\audio_file\finalEditAudio.py</file_saved>
 </file_created>
